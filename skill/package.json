@@ -1,0 +1,30 @@
+{
+  "name": "motivatore",
+  "version": "1.0.0",
+  "description": "Motivatore personale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "motivatore",
+    "credere",
+    "complimenti",
+	"divertimento",
+    "divertirsi",
+    "frasi",
+    "aforismi",
+    "giochi",
+    "gioco",
+	"buongiorno",
+	"sveglia",
+	"aiuto"
+  ],
+  "author": "EmilioDiRita",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk": "^2.0.0"
+  }
+}
