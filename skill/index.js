@@ -34,7 +34,7 @@ const HelpIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
   },
   handle(handlerInput) {
-    const speechText = 'Ti basta dire motivami!';
+    const speechText = 'Ti basta dire apri motivatore della giornata!';
 
     return handlerInput.responseBuilder
       .speak(speechText)
@@ -76,8 +76,8 @@ const ErrorHandler = {
     console.log(`Error handled: ${error.message}`);
 
     return handlerInput.responseBuilder
-      .speak('Mi dispiace. Non sono riuscita a capire cosa mi hai chiesto. Dimmi motivami!')
-      .reprompt('Mi dispiace. Non sono riuscita a capire cosa mi hai chiesto. Dimmi motivami!')
+      .speak('Mi dispiace. Non sono riuscita a capire cosa mi hai chiesto. Dimmi apri motivatore della giornata!')
+      .reprompt('Mi dispiace. Non sono riuscita a capire cosa mi hai chiesto. Dimmi apri motivatore della giornata!')
       .getResponse();
   },
 };
